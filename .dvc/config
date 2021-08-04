@@ -1,5 +1,8 @@
 [core]
     analytics = false
-    remote = remote_storage
+    remote = myremote
 ['remote "remote_storage"']
     url = /Users/srishtisehgal/Desktop/Projects/testing-dvc/dvc_remote
+['remote "myremote"']
+    url = s3://autumn-ml-artifacts-development/DVC_Remote/
+    region = ca-centrat-1
