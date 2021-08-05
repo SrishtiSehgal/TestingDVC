@@ -1,0 +1,4 @@
+[core]
+    analytics = false
+['remote "remote_storage"']
+    url = /Users/srishtisehgal/Desktop/Projects/dvc_remote
